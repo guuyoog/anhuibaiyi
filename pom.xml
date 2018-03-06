@@ -64,6 +64,37 @@
       <artifactId>spring-test</artifactId>
       <version>${spring.version}</version>
     </dependency>
+      <!-- mail -->
+      <dependency>
+          <groupId>com.sun.mail</groupId>
+          <artifactId>javax.mail</artifactId>
+          <version>1.5.6</version>
+      </dependency>
+      <!-- mail -->
+
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-lang3</artifactId>
+          <version>3.7</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>fastjson</artifactId>
+          <version>1.2.46</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-core</artifactId>
+          <version>2.5.4</version>
+      </dependency>
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+          <version>2.5.4</version>
+      </dependency>
+
   </dependencies>
   <build>
     <finalName>website</finalName>
